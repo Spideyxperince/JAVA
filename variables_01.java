@@ -1,13 +1,20 @@
 import java.util.*;
 
-public class variables_01 {
+public class variables_01{
+    // name can be anything but first letter can not be a number and it can not contain any special character except _ and $.
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("this is a print function that creates new line");
-        // println creates a new line 
-        System.out.print("this print function also create a new line \n");
-        // here new line is created by \n (back_slash n)
-        System.out.print("this print function does not create a new line ");
+        // i am declaring a variable of type character and there i will store the name.
+        String name = "fri-end";  
+        // here i am declaring a variable of type integer and there i will store the age.
+        int age = 20;
+        // here i am declaring a variable of type float and there i will store the height.
+        float height = 5.8f; 
+        // now we will print the values of these variables.
+        System.out.println("my name is " + name + " and my age is " + age + " and my height is " + height);
+
+
+
         
 
         sc.close();
