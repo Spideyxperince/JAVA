@@ -1,8 +1,19 @@
 import java.util.*;
 
-public class Main {
+public class Butterfly_pattern {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
+
+                
+//               *      *
+//               **    **
+//               ***  ***
+//               ********
+//               ********
+//               ***  ***
+//               **    **
+//               *      *
     int n = 5;
         for (int i=0; i<=n;i++){ // yeh 0 se leke 5 tak chalega and i ko output mei dega
 //left part
