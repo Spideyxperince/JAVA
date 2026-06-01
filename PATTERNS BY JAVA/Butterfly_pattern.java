@@ -3,8 +3,6 @@ import java.util.*;
 public class Butterfly_pattern {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-
                 
 //               *      *
 //               **    **
@@ -14,7 +12,8 @@ public class Butterfly_pattern {
 //               ***  ***
 //               **    **
 //               *      *
-    int n = 5;
+System.out.println("enter the size of butterfly");
+    int n = sc.nextInt();
         for (int i=0; i<=n;i++){ // yeh 0 se leke 5 tak chalega and i ko output mei dega
 //left part
             for(int j = 1 ; j<i;j++){// yeh j ko 1 se leke i -1 tak chalega and print mei * dega
