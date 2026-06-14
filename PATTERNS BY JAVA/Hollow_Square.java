@@ -9,6 +9,7 @@ public class Hollow_Square {
                         *       *
                         * * * * *
  */
+System.out.print("enter the size of hollow Square :  ");
 int n = sc.nextInt();
 for (int i = 1; i <= n; i++) { 
             
