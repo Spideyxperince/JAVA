@@ -33,6 +33,7 @@ public class Interger_caching{
         // case.
         Integer x = 396;
         Integer y = 396;
+          
 
         // Then it will be false because both value of
         // a and b will point to the different 
