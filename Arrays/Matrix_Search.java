@@ -38,11 +38,9 @@ public class Matrix_Search{
                if (matrix[i][j] == x){
                 System.out.println("found: "+" row " + i + " column " + j);
                }
+              
+               }
             }
-
-
-            
-
         }
     }
-    }}
+    }
