@@ -5,6 +5,7 @@ public class Array_2D {
         try (Scanner sc = new Scanner(System.in)){
             // memory consumption = row * column * datatype.
             // decleration: 
+
          //   int[][] array = new int [2][4];
 int rows = sc.nextInt();
 int columns = sc.nextInt();
