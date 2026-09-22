@@ -36,6 +36,18 @@ public class Name_array{
                 System.out.println(first_array[i]);
 
             }
+//---------------------------------------------------------
+// another way to define a array
+//---------------------------------------------------------
+
+//---------------------------------------------------------
+// type[] array_name = {};
+//---------------------------------------------------------
+
+int[] second_array  = {1 ,21 , 443 , 43 , 19 , 143 };
+for ( int a = 0;  a < second_array.length ; a++){
+    System.out.println(second_array[a]);
+}
             
         }
 
